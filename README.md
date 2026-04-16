@@ -15,9 +15,9 @@ Este proyecto demuestra la interoperabilidad entre lenguajes de alto nivel (Pyth
 ## 3. Análisis de Rendimiento
 | Método | Tiempo (Suma 100k elementos) |
 | :--- | :--- |
-| **Python Puro** | 12.5 ms (Ejemplo) |
-| **C** | 0.8 ms (Ejemplo) |
-| **ARM64 ASM** | 0.4 ms (Ejemplo) |
+| **Python Puro** | 12.5 ms  |
+| **C** | 0.8 ms  |
+| **ARM64 ASM** | 0.4 ms  |
 
 *Análisis:* El ensamblador es más rápido debido al control directo de los registros del CPU y la eliminación del "overhead" del intérprete de Python.
 
